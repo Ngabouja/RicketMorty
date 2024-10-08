@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ebebeb;
+}
+.contenaire {
+	display: flex;
+	height: 199px;
+	width: 678px;
+	background-color: #ffffff;
+	align-items: center;
+	position: relative;
+	border: 3px solid #404040;
+	border-radius: 12px;
+	box-shadow: 10px 10px 10px 0 #00000040;
+}
+
+.pp {
+	background: center / cover url(teterick.jpg);
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #404040;
+	margin: 12px;
+}
+.pp-vert {
+	border: solid;
+	background-color: #50f27b;
+	height: 30px;
+	width: 30px;
+	border-radius: 350px;
+	z-index: 1;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	border: 5px solid #404040;
+}
+.Pp-1 {
+	position: relative;
+}
+.Croix {
+	position: absolute;
+	right: -25px;
+	top: -25px;
+	border-radius: 90236543456780px;
+	height: 50px;
+	width: 50px;
+	border: 7px solid #404040;
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #FFFFFF;
+}
+.Rick {
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	font-size: 25px;
+}
+.Rick-2 {
+	color: #838383;
+	font-size: 25px;
+}
